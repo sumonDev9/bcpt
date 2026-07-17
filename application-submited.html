@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font Quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section
+        class="min-h-screen w-full flex items-center justify-center p-4 sm:p-6 bg-cover bg-center bg-no-repeat bg-gray-50"
+        style="background-image: url('/assets/apply/bg.png');">
+
+        <!-- Main Card Wrapper -->
+        <div class="relative w-full max-w-md mt-10">
+
+            <!-- Center Top Icon (Overlapped) -->
+            <div class="absolute -top-10 left-1/2 -translate-x-1/2 z-10">
+                <div class="w-20 h-20 bg-[#0EA611] rounded-full flex items-center justify-center">
+                    <img src="/assets/apply/app.png" class="w-8 h-8" alt="">
+                </div>
+            </div>
+
+            <!-- Card Content with Inner Background -->
+            <!-- Ekhane 'card_dots_bg.png' er jaygay apnar card-er dot pattern background image diben -->
+            <div
+                class="relative overflow-hidden bg-white rounded-xl shadow-[0_4px_64px_14px_#F969021F] border-t-[3px] border-r-[3px] border-l-[3px] border-[#f97316] border-b-[3px] border-b-[#22c55e] px-6 pb-8 pt-14">
+
+                <!-- Background Image -->
+                <div
+                    class="absolute inset-0 bg-[url('/assets/apply/form.png')] bg-cover bg-center bg-no-repeat opacity-20">
+                </div>
+
+                <!-- Content -->
+                <div class="relative z-10">
+
+                    <!-- Heading -->
+                    <h1 class="text-2xl text-[#03507C] font-bold text-center uppercase tracking-wide mb-3">
+                        Application Submited
+                    </h1>
+
+                    <!-- Subtext -->
+                    <p
+                        class="text-[13px] sm:text-sm text-center text-[#000000] font-semibold leading-relaxed px-2 mb-8">
+                        Your admission application has been received. Please save your Application Number for tracking.
+                    </p>
+
+                    <!-- Application Number Box -->
+                    <div class="relative bg-[#0EA611] rounded-lg mt-8 mb-6 pt-7 pb-4 px-4 text-center shadow-sm">
+                        <div
+                            class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-white px-5 py-1 rounded-xl text-base font-bold text-[#000000] shadow-[0_4px_14px_0_rgba(106,92,92,0.25)] whitespace-nowrap">
+                            Application Number
+                        </div>
+
+                        <div class="text-white font-bold text-lg sm:text-xl lg:text-2xl tracking-widest mt-1">
+                            APP - 2026 - 0000061
+                        </div>
+                    </div>
+
+                    <!-- Details Box -->
+                    <div
+                        class="border border-[#34D838] bg-white rounded-lg p-4 space-y-2 mb-6 shadow-[0_4px_54px_0_rgba(0,0,0,0.10)]">
+                        <div class="flex flex-col sm:flex-row sm:gap-2 text-sm lg:text-base">
+                            <span class="text-[#03507C] font-bold sm:min-w-[125px]">Applicant:</span>
+                            <span class="font-bold text-[#000000]">Sumon Mitra</span>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row sm:gap-2 text-sm lg:text-base">
+                            <span class="text-[#03507C] font-bold sm:min-w-[125px]">Email:</span>
+                            <span class="font-bold text-[#000000]">sumonmit678@gmail.com</span>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row sm:gap-2 text-sm lg:text-base">
+                            <span class="text-[#03507C] font-bold sm:min-w-[125px]">Applied Course:</span>
+                            <span class="font-bold text-[#000000]">Bachelor of Pharmacy</span>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row sm:gap-2 text-sm lg:text-base">
+                            <span class="text-[#03507C] font-bold sm:min-w-[125px]">Submitted:</span>
+                            <span class="font-bold text-[#000000]">17 Jul 2026, 05:38</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <button
+                            class="flex-1 bg-[#F96902] hover:bg-[#c2410c] text-white text-[13px] font-semibold py-3 px-4 rounded-md transition-colors shadow-sm tracking-wide">
+                            Track My Application
+                        </button>
+
+                        <button
+                            class="flex-1 bg-[#03507C] hover:bg-[#003655] text-white text-[13px] font-semibold py-3 px-4 rounded-md transition-colors shadow-sm tracking-wide">
+                            Submit Another Application
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
