@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font Quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section
+        class="min-h-screen w-full flex flex-col items-center justify-center p-4 sm:p-6 py-16 gap-12 bg-cover bg-center bg-no-repeat bg-gray-50"
+        style="background-image: url('/assets/apply/bg.png');">
+
+        <!-- ================= CARD 1: TRACK YOUR APPLICATION ================= -->
+        <div class="relative w-full max-w-[420px] mt-8">
+
+            <!-- Top Overlapping Icon -->
+            <div class="absolute -top-9 left-1/2 -translate-x-1/2 z-10">
+                <div class="w-20 h-20 bg-[#0EA611] rounded-full flex items-center justify-center">
+                    <img src="/assets/apply/app.png" class="w-8 h-8" alt="">
+                </div>
+            </div>
+
+            <!-- Card 1 Content (With Inner Background) -->
+            <!-- Ekhane 'card_dots_bg.png' er jaygay apnar dot pattern image diben -->
+            <div
+                class="relative overflow-hidden bg-white rounded-xl hadow-[0_4px_64px_14px_#F969021F] border-t-[3px] border-r-[3px] border-l-[3px] border-[#f97316] border-b-[3px] border-b-[#05a81e] px-7 pb-8 pt-12">
+
+                <!-- Background Image -->
+                <div
+                    class="absolute inset-0 bg-[url('/assets/apply/form.png')] bg-cover bg-center bg-no-repeat opacity-20">
+                </div>
+
+                <!-- Content -->
+                <div class="relative z-10">
+
+                    <!-- Title -->
+                    <h2 class="text-xl lg:text-2xl text-[#03507C] font-bold text-center uppercase tracking-wide mb-1.5">
+                        TRACK YOUR APPLICATION
+                    </h2>
+
+                    <p class="text-[12px] text-center text-[#000000] font-semibold mb-6">
+                        Enter your Application Number to check the current status.
+                    </p>
+
+                    <!-- Input Group -->
+                    <div class="mb-5">
+                        <label class="block text-sm font-bold text-[#000000] mb-2 uppercase tracking-wide">
+                            Application Number
+                        </label>
+
+                        <input type="text" placeholder="e.g. APP-2025-000001"
+                            class="w-full bg-white border border-gray-100 rounded-md px-4 py-3.5 text-sm focus:outline-none shadow-[0_4px_64px_0_rgba(0,0,0,0.12)] text-[#000000] font-medium placeholder-gray-400">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="button"
+                        class="w-full bg-[#03507C] hover:bg-[#003655] text-white text-sm font-semibold py-3.5 px-4 rounded-md transition-colors shadow-[0_4px_64px_0_rgba(0,0,0,0.12)] tracking-wide flex justify-center items-center gap-2">
+
+                        Check Status
+
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+</body>
+
+</html>
