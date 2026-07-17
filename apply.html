@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Form</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font Quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- apply start here -->
+
+    <!-- Main Background Section -->
+    <section class="min-h-screen py-12  text-[#000000] bg-cover bg-center"
+        style="background-image: url('/assets/apply/bg.png');">
+
+        <div class="max-w-4xl mx-auto px-4">
+
+            <form action="#" method="POST">
+
+                <!-- 1. Personal Information Section -->
+                <div
+                    class="relative bg-white border border-[#F96902] shadow-[0_4px_74px_50px_rgba(150,139,131,0.06)] rounded-2xl p-6 pt-14 mb-6 mt-8">
+
+                    <!-- Section Header -->
+                    <div
+                        class="absolute -top-6 left-6 bg-[#03507C] text-white px-5 py-2.5 rounded-lg flex items-center gap-3 ">
+                        <div
+                            class="bg-white text-[#F96902] rounded-full w-10 h-10 flex justify-center items-center text-sm">
+                            <img src="/assets/apply/personal.png" class="w-6 h-6" alt="">
+                        </div>
+                        <span class="font-bold tracking-wide text-lg">Personal Information</span>
+                    </div>
+
+                    <!-- Inner Box with Background Pattern -->
+                    <div class="border border-[#EBE3E3] rounded-xl p-6 bg-bottom bg-repeat-x"
+                        style="background-image: url('/assets/apply/formBg.png');">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">First Name</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon1.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Enter First Name"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Last Name</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon1.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Enter Last Name"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Email</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon3.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="email" placeholder="Enter Email"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Mobile Number</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon4.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="tel" placeholder="Enter Mobile Number"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Date of Birth</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon5.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="--- DD/MM/YYYY ---"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Gender</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon6.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <select
+                                        class="w-full px-3 outline-none text-sm text-gray-600 bg-transparent appearance-none cursor-pointer">
+                                        <option value="" disabled selected>Select Your Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down text-gray-500 pr-3 text-xs"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Blood Group</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon7.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <select
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent appearance-none cursor-pointer">
+                                        <option value="" disabled selected>Select Blood Group</option>
+                                        <option value="A+">A+</option>
+                                        <option value="O+">O+</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down text-gray-500 pr-3 text-xs"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Aadhaar Number</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon6.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="12 digit Aadhaar Number"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Green Glow Divider -->
+                <div
+                    class="w-48 mx-auto h-1 rounded-full bg-gradient-to-r from-transparent via-green-400 to-transparent my-12">
+
+                </div>
+
+                <!-- 2. Guardian / Family Information -->
+                <div
+                    class="relative bg-white border border-[#F96902] shadow-[0_4px_74px_50px_rgba(150,139,131,0.06)] rounded-2xl p-6 pt-14 mb-6">
+
+                    <div
+                        class="absolute -top-6 left-6 bg-[#03507C] text-white px-5 py-2.5 rounded-lg flex items-center gap-3 ">
+                        <div
+                            class="bg-white text-[#F96902] rounded-full w-10 h-10 flex justify-center items-center text-sm">
+                            <img src="/assets/apply/family.png" class="w-6 h-6 object-contain" alt="">
+                        </div>
+                        <span class="font-bold tracking-wide text-lg">Guardian / Family Information</span>
+                    </div>
+
+                    <div class="border border-[#EBE3E3] rounded-xl p-6 bg-bottom bg-repeat-x"
+                        style="background-image: url('/assets/apply/formBg.png');">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Father's Name</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon9.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Enter Father's Name"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Mother's Name</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon10.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Enter Mother's Name"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Emergency Contact
+                                    Name</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon1.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Contact Name"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Emergency Contact
+                                    Phone</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon11.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="tel" placeholder="Contact Phone"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Green Glow Divider -->
+                <div
+                    class="w-48 mx-auto h-1 rounded-full bg-gradient-to-r from-transparent via-green-400 to-transparent my-12">
+                </div>
+
+                <!-- 3. Address Information -->
+                <div
+                    class="relative bg-white border border-[#F96902] shadow-[0_4px_74px_50px_rgba(150,139,131,0.06)] rounded-2xl p-6 pt-14 mb-6">
+
+                    <div
+                        class="absolute -top-6 left-6 bg-[#03507C] text-white px-5 py-2.5 rounded-lg flex items-center gap-3 ">
+                        <div
+                            class="bg-white text-[#F96902] rounded-full w-10 h-10 flex justify-center items-center text-sm">
+                            <img src="/assets/apply/address.png" class="w-6 h-6 object-contain" alt="">
+                        </div>
+                        <span class="font-bold tracking-wide text-lg">Address Information</span>
+                    </div>
+
+                    <div class="border border-[#EBE3E3] rounded-xl p-6 bg-bottom bg-repeat-x"
+                        style="background-image: url('/assets/apply/formBg.png');">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Current Address</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon12.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Current Address"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">City</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon13.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <select
+                                        class="w-full px-3 outline-none text-sm text-gray-600 bg-transparent appearance-none cursor-pointer">
+                                        <option value="" disabled selected>Select City</option>
+                                        <option value="kolkata">Kolkata</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down text-gray-500 pr-3 text-xs"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">State</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon14.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <select
+                                        class="w-full px-3 outline-none text-sm text-gray-600 bg-transparent appearance-none cursor-pointer">
+                                        <option value="" disabled selected>Select State</option>
+                                        <option value="wb">West Bengal</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down text-gray-500 pr-3 text-xs"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Pincode</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon15.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Pincode"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Green Glow Divider -->
+                <div
+                    class="w-48 mx-auto h-1 rounded-full bg-gradient-to-r from-transparent via-green-400 to-transparent my-12">
+                </div>
+
+                <!-- 4. Academic Information -->
+                <div
+                    class="relative bg-white border border-[#F96902] shadow-[0_4px_74px_50px_rgba(150,139,131,0.06)] rounded-2xl p-6 pt-14 mb-6">
+
+                    <div
+                        class="absolute -top-6 left-6 bg-[#03507C] text-white px-5 py-2.5 rounded-lg flex items-center gap-3 ">
+                        <div
+                            class="bg-white text-[#F96902] rounded-full w-10 h-10 flex justify-center items-center text-sm">
+                            <img src="/assets/apply/accademic.png" class="w-6 h-6 object-contain" alt="">
+                        </div>
+                        <span class="font-bold tracking-wide text-lg">Academic Information</span>
+                    </div>
+
+                    <div class="border border-[#EBE3E3] rounded-xl p-6 bg-bottom bg-repeat-x"
+                        style="background-image: url('/assets/apply/formBg.png');">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Courses Applying For</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon16.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Courses"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">10th Percentage *</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon17.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="10th percentage"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">12th Percentage *</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon17.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="12th percentage"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Previous Institution</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon17.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Previous Institution"
+                                        class="w-full px-3 outline-none text-sm text-[#000000] bg-transparent">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Green Glow Divider -->
+                <div
+                    class="w-48 mx-auto h-1 rounded-full bg-gradient-to-r from-transparent via-green-400 to-transparent my-12">
+                </div>
+
+                <!-- 5. Document Upload -->
+                <div
+                    class="relative bg-white border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-2xl p-6 pt-14 mb-10">
+
+                    <div
+                        class="absolute -top-6 left-6 bg-[#03507C] text-white px-5 py-2.5 rounded-lg flex items-center gap-3 ">
+                        <div
+                            class="bg-white text-[#F96902] rounded-full w-10 h-10 flex justify-center items-center text-sm">
+                            <img src="/assets/apply/document.png" class="w-6 h-6 object-contain" alt="">
+                        </div>
+                        <span class="font-bold tracking-wide text-lg">Document Upload</span>
+                    </div>
+
+                    <div class="border border-[#EBE3E3] rounded-xl p-6 bg-bottom bg-repeat-x"
+                        style="background-image: url('/assets/apply/formBg.png');">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Student Photo
+                                    (JPG/PNG)</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1 overflow-hidden">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon18.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="file"
+                                        class="w-full px-3 text-sm text-gray-500 file:mr-4 file:py-1 file:px-3 file:rounded-full file:border-0 file:text-xs file:font-semibold file:bg-orange-50 file:text-orange-700 hover:file:bg-orange-100 bg-transparent cursor-pointer">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">Aadhar Card</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1 overflow-hidden">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon18.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="file"
+                                        class="w-full px-3 text-sm text-gray-500 file:mr-4 file:py-1 file:px-3 file:rounded-full file:border-0 file:text-xs file:font-semibold file:bg-orange-50 file:text-orange-700 hover:file:bg-orange-100 bg-transparent cursor-pointer">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">10th Marksheet</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1 overflow-hidden">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon18.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="file"
+                                        class="w-full px-3 text-sm text-gray-500 file:mr-4 file:py-1 file:px-3 file:rounded-full file:border-0 file:text-xs file:font-semibold file:bg-orange-50 file:text-orange-700 hover:file:bg-orange-100 bg-transparent cursor-pointer">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-[#000000] mb-2">12th Marksheet</label>
+                                <div
+                                    class="flex items-center border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-full bg-white p-1 overflow-hidden">
+                                    <div
+                                        class="bg-[#F96902] text-white rounded-full w-9 h-9 flex items-center justify-center shrink-0">
+                                        <img src="/assets/apply/icon18.png" class="w-5 h-5 object-contain" alt="">
+                                    </div>
+                                    <input type="file"
+                                        class="w-full px-3 text-sm text-gray-500 file:mr-4 file:py-1 file:px-3 file:rounded-full file:border-0 file:text-xs file:font-semibold file:bg-orange-50 file:text-orange-700 hover:file:bg-orange-100 bg-transparent cursor-pointer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CAPTCHA Section -->
+                <div class="pb-6">
+                    <div class="w-full">
+                        <label
+                            class="block text-sm font-bold text-[#000000] mb-2 tracking-widest uppercase">Verification</label>
+
+                        <div class="flex gap-3 mb-3">
+                            <div
+                                class="flex-1 bg-white border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-lg flex justify-around items-center py-3 text-[#F96902] text-2xl font-bold bg-[radial-gradient(#e5e7eb_1.5px,transparent_1.5px)] [background-size:16px_16px]">
+                                <span>3</span>
+                                <span>9</span>
+                                <span>6</span>
+                                <span>0</span>
+                                <span>7</span>
+                                <span>0</span>
+                            </div>
+                            <button type="button"
+                                class="bg-white border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-lg px-5 text-[#F96902] transition flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"
+                                    class="w-5 h-5">
+                                    <path
+                                        d="M370.7 133.3C339.5 102.1 298.1 85 256 85c-69.1 0-128.6 46.8-146.4 112H48c-13.3 0-24 10.7-24 24s10.7 24 24 24h96c13.3 0 24-10.7 24-24V125c0-13.3-10.7-24-24-24s-24 10.7-24 24v25.4C140.4 95.6 193.6 53 256 53c50.6 0 98.2 19.7 134 55.5L416 133.5V64c0-13.3 10.7-24 24-24s24 10.7 24 24v128c0 13.3-10.7 24-24 24H312c-13.3 0-24-10.7-24-24s10.7-24 24-24h58.7zM464 267h-96c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24s24-10.7 24-24v-25.4C371.6 416.4 318.4 459 256 459c-50.6 0-98.2-19.7-134-55.5L96 378.5V448c0 13.3-10.7 24-24 24s-24-10.7-24-24V320c0-13.3 10.7-24 24-24H200c13.3 0 24 10.7 24 24s-10.7 24-24 24h-58.7l41.3 41.3C172.5 409.9 213.9 427 256 427c69.1 0 128.6-46.8 146.4-112H464c13.3 0 24-10.7 24-24s-10.7-24-24-24z" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="relative">
+                            <div
+                                class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-400">
+                                <i class="fa-regular fa-shield-check text-lg"></i>
+                            </div>
+                            <input type="text" placeholder="Enter CAPTCHA code"
+                                class="w-full pl-11 pr-4 py-3.5 bg-white border border-[#F96902] shadow-[0_4px_44px_0_rgba(249,105,2,0.09)] rounded-lg outline-none focus:border-green-400 text-[#000000] transition">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div>
+                    <button type="submit"
+                        class="bg-[#03507C] text-white px-8 py-3.5 rounded-full font-bold hover:bg-blue-900 transition flex items-center gap-2 shadow-lg tracking-wide">
+                        SUBMIT APPLICATION <img src="/assets/apply/tick.png" alt="">
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <!-- apply end here -->
+
+</body>
+
+</html>
